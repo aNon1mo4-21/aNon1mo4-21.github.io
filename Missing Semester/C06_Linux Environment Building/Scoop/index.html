@@ -8,11 +8,13 @@
       
       
       
-        <link rel="canonical" href="https://aNOn1mo4-21.github.io/Missing%20Semester/C06_Linux%20Environment%20Building/%E3%80%8APowerShell%20%E6%96%B0%E6%89%8B%E9%AB%98%E9%A2%91%E5%AE%9E%E7%94%A8%E6%8C%87%E4%BB%A4%E6%95%B4%E7%90%86%E3%80%8B/">
+        <link rel="canonical" href="https://aNOn1mo4-21.github.io/Missing%20Semester/C06_Linux%20Environment%20Building/Scoop/">
       
       
-        <link rel="prev" href="../Scoop/">
+        <link rel="prev" href="../Scoop%26npm/">
       
+      
+        <link rel="next" href="../%E3%80%8APowerShell%20%E6%96%B0%E6%89%8B%E9%AB%98%E9%A2%91%E5%AE%9E%E7%94%A8%E6%8C%87%E4%BB%A4%E6%95%B4%E7%90%86%E3%80%8B/">
       
       
       <link rel="icon" href="../../../assets/images/favicon.png">
@@ -20,7 +22,7 @@
     
     
       
-        <title>《PowerShell 新手高频实用指令整理》 - Abby's Wonderland</title>
+        <title>Scoop - Abby's Wonderland</title>
       
     
     
@@ -73,6 +75,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#scoop" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -103,7 +110,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              《PowerShell 新手高频实用指令整理》
+              Scoop
             
           </span>
         </div>
@@ -1129,10 +1136,32 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../Scoop/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Scoop
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -1143,6 +1172,95 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#scoop_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      为什么使用 Scoop
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#scoop_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      安装 Scoop
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#scoop_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      使用 Scoop
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#qa" class="md-nav__link">
+    <span class="md-ellipsis">
+      Q&amp;A
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Q&amp;A">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#scoop_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Scoop 能配置镜像源吗？
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#java8" class="md-nav__link">
+    <span class="md-ellipsis">
+      为什么找不到 Java8？
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#python2" class="md-nav__link">
+    <span class="md-ellipsis">
+      我需要安装 python2 该如何操作？
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -1152,17 +1270,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../%E3%80%8APowerShell%20%E6%96%B0%E6%89%8B%E9%AB%98%E9%A2%91%E5%AE%9E%E7%94%A8%E6%8C%87%E4%BB%A4%E6%95%B4%E7%90%86%E3%80%8B/" class="md-nav__link">
         
   
   
@@ -1173,7 +1284,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -1211,6 +1321,85 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#scoop_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      为什么使用 Scoop
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#scoop_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      安装 Scoop
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#scoop_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      使用 Scoop
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#qa" class="md-nav__link">
+    <span class="md-ellipsis">
+      Q&amp;A
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Q&amp;A">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#scoop_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Scoop 能配置镜像源吗？
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#java8" class="md-nav__link">
+    <span class="md-ellipsis">
+      为什么找不到 Java8？
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#python2" class="md-nav__link">
+    <span class="md-ellipsis">
+      我需要安装 python2 该如何操作？
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -1229,9 +1418,37 @@
   
 
 
-  <h1>《PowerShell 新手高频实用指令整理》</h1>
-
-<p>樂 打HPC唯一的收获大概是在电脑上装了Debian和虚拟机</p>
+<h1 id="scoop">Scoop</h1>
+<h2 id="scoop_1">为什么使用 Scoop</h2>
+<p>在 Windows 下，搭建开发环境一直是一个复杂且困难的问题。由于没有一个统一的标准，导致各种开发环境的安装方式差异巨大，需要付出很多不必要的时间成本。而 Scoop 可以帮助你统一安装并管理常见的开发软件，省去了手动下载安装，配置环境变量等繁琐步骤。</p>
+<p>例如安装 python 和 nodejs 只需要执行：</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="n">scoop</span> <span class="n">install</span> <span class="n">python</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="n">scoop</span> <span class="n">install</span> <span class="n">nodejs</span>
+</code></pre></div>
+<h2 id="scoop_2">安装 Scoop</h2>
+<p>Scoop 需要 <a href="https://aka.ms/wmf5download">Windows PowerShell 5.1</a> 或者 <a href="https://aka.ms/powershell">PowerShell</a> 作为运行环境，如果你使用的是 Windows 10 及以上版本，Windows PowerShell 是内置在系统中的。而 Windows 7 内置的 Windows PowerShell 版本过于陈旧，你需要手动安装新版本的 PowerShell。</p>
+<blockquote>
+<p>由于发现很多同学在设置 Windows 用户时使用了中文用户名，导致了用户目录也变成了中文名。如果按照 Scoop 的默认方式将软件安装到用户目录下，可能会造成部分软件执行错误。所以这里推荐安装到自定义目录，如果需要其他安装方式请参考： <a href="https://github.com/ScoopInstaller/Install">ScoopInstaller/Install</a></p>
+</blockquote>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="c"># 设置 PowerShell 执行策略</span>
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="nb">Set-ExecutionPolicy</span> <span class="n">-ExecutionPolicy</span> <span class="n">RemoteSigned</span> <span class="n">-Scope</span> <span class="n">CurrentUser</span>
+<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="c"># 下载安装脚本</span>
+<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="nb">irm </span><span class="n">get</span><span class="p">.</span><span class="n">scoop</span><span class="p">.</span><span class="n">sh</span> <span class="n">-outfile</span> <span class="s1">&#39;install.ps1&#39;</span>
+<a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="c"># 执行安装, --ScoopDir 参数指定 Scoop 安装路径</span>
+<a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a><span class="p">.\</span><span class="n">install</span><span class="p">.</span><span class="n">ps1</span> <span class="n">-ScoopDir</span> <span class="s1">&#39;C:\Scoop&#39;</span>
+</code></pre></div>
+<h2 id="scoop_3">使用 Scoop</h2>
+<p>Scoop 的官方文档对于新手非常友好，相对于在此处赘述更推荐阅读 <a href="https://github.com/ScoopInstaller/Scoop">官方文档</a> 或 <a href="https://github.com/ScoopInstaller/Scoop/wiki/Quick-Start">快速入门</a> 。</p>
+<h2 id="qa">Q&amp;A</h2>
+<h3 id="scoop_4">Scoop 能配置镜像源吗？</h3>
+<p>Scoop 社区仅维护安装配置，所有的软件都是从该软件官方提供的下载链接进行下载，所以无法提供镜像源。如果因为你的网络环境导致多次下载失败，那么你需要一点点 <a href="https://csdiy.wiki/必学工具/翻墙/">魔法</a>。</p>
+<h3 id="java8">为什么找不到 Java8？</h3>
+<p>原因同上，官方已不再提供 Java8 的下载链接，推荐使用 <a href="https://github.com/ScoopInstaller/Java/blob/master/bucket/ojdkbuild8.json">ojdkbuild8</a> 替代。</p>
+<h3 id="python2">我需要安装 python2 该如何操作？</h3>
+<p>对于已经过时弃用的软件，Scoop 社区会将其从 <a href="https://github.com/ScoopInstaller/Main">ScoopInstaller/Main</a> 中移除并将其添加到 <a href="https://github.com/ScoopInstaller/Versions">ScoopInstaller/Versions</a> 中。如果你需要这些软件的话需要手动添加 bucket：</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="n">scoop</span> <span class="n">bucket</span> <span class="n">add</span> <span class="n">versions</span>
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="n">scoop</span> <span class="n">install</span> <span class="n">python27</span>
+</code></pre></div>
 
 
 
@@ -1254,7 +1471,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="November 9, 2025 07:42:37 UTC">November 9, 2025</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="November 10, 2025 05:54:34 UTC">November 10, 2025</span>
   </span>
 
     
@@ -1264,7 +1481,7 @@
     <span class="md-icon" title="Created">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14.47 15.08 11 13V7h1.5v5.25l3.08 1.83c-.41.28-.79.62-1.11 1m-1.39 4.84c-.36.05-.71.08-1.08.08-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8c0 .37-.03.72-.08 1.08.69.1 1.33.32 1.92.64.1-.56.16-1.13.16-1.72 0-5.5-4.5-10-10-10S2 6.5 2 12s4.47 10 10 10c.59 0 1.16-.06 1.72-.16-.32-.59-.54-1.23-.64-1.92M18 15v3h-3v2h3v3h2v-3h3v-2h-3v-3z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="November 9, 2025 07:42:37 UTC">November 9, 2025</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="November 10, 2025 05:54:34 UTC">November 10, 2025</span>
   </span>
 
     
