@@ -8,28 +8,28 @@
       
       
       
-        <link rel="canonical" href="https://aNOn1mo4-21.github.io/Missing%20Semester/C06_Linux%20Environment%20Building/%E3%80%8APowerShell%20%E6%96%B0%E6%89%8B%E9%AB%98%E9%A2%91%E5%AE%9E%E7%94%A8%E6%8C%87%E4%BB%A4%E6%95%B4%E7%90%86%E3%80%8B/">
+        <link rel="canonical" href="https://aNOn1mo4-21.github.io/Missing%20Semester/Missing%20Semester%28%E6%8A%80%E8%83%BD%E6%8B%BE%E9%81%97%29/">
       
       
-        <link rel="prev" href="../Scoop/">
+        <link rel="prev" href="../../Essays/2025%E5%86%AC/%E6%BD%AE%E6%B9%BF/">
       
       
-        <link rel="next" href="../%E7%AE%80%E5%8C%96%E6%B8%85%E5%8D%95%EF%BC%88%E4%B8%8D%E5%85%A8%EF%BC%89/">
+        <link rel="next" href="../C01_Shell%20Tools%20and%20Scripting/%E3%80%8APowerShell%20%E6%96%B0%E6%89%8B%E9%AB%98%E9%A2%91%E5%AE%9E%E7%94%A8%E6%8C%87%E4%BB%A4%E6%95%B4%E7%90%86%E3%80%8B/">
       
       
-      <link rel="icon" href="../../../assets/images/favicon.png">
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.23">
     
     
       
-        <title>《PowerShell 新手高频实用指令整理》 - Abby's Wonderland</title>
+        <title>Missing Semester(技能拾遗) - Abby's Wonderland</title>
       
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/main.84d31ad4.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.84d31ad4.min.css">
       
         
-        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -48,11 +48,11 @@
       
     
     
-      <link rel="stylesheet" href="../../../stylesheets/extra.css">
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
     
-      <link rel="stylesheet" href="../../../stylesheets/extra.css">
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
     
-    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -75,6 +75,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#missing-semester" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -85,7 +90,7 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../../.." title="Abby&#39;s Wonderland" class="md-header__button md-logo" aria-label="Abby's Wonderland" data-md-component="logo">
+    <a href="../.." title="Abby&#39;s Wonderland" class="md-header__button md-logo" aria-label="Abby's Wonderland" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -105,7 +110,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              《PowerShell 新手高频实用指令整理》
+              Missing Semester(技能拾遗)
             
           </span>
         </div>
@@ -190,7 +195,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../.." class="md-tabs__link">
+      <a href="../.." class="md-tabs__link">
         
   
   
@@ -209,7 +214,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../../about/" class="md-tabs__link">
+      <a href="../../about/" class="md-tabs__link">
         
   
   
@@ -230,7 +235,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../../CET-4/about/" class="md-tabs__link">
+        <a href="../../CET-4/about/" class="md-tabs__link">
           
   
   
@@ -257,7 +262,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../../Essays/2025%E5%86%AC/%E6%BD%AE%E6%B9%BF/" class="md-tabs__link">
+        <a href="../../Essays/2025%E5%86%AC/%E6%BD%AE%E6%B9%BF/" class="md-tabs__link">
           
   
   
@@ -281,17 +286,8 @@
   
     
     
-      
-  
-  
-  
-    
-  
-  
-    
-    
       <li class="md-tabs__item md-tabs__item--active">
-        <a href="../../C01_Shell%20Tools%20and%20Scripting/%E3%80%8APowerShell%20%E6%96%B0%E6%89%8B%E9%AB%98%E9%A2%91%E5%AE%9E%E7%94%A8%E6%8C%87%E4%BB%A4%E6%95%B4%E7%90%86%E3%80%8B/" class="md-tabs__link">
+        <a href="./" class="md-tabs__link">
           
   
   
@@ -299,9 +295,6 @@
 
         </a>
       </li>
-    
-  
-
     
   
 
@@ -328,7 +321,7 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../../.." title="Abby&#39;s Wonderland" class="md-nav__button md-logo" aria-label="Abby's Wonderland" data-md-component="logo">
+    <a href="../.." title="Abby&#39;s Wonderland" class="md-nav__button md-logo" aria-label="Abby's Wonderland" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -358,7 +351,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../.." class="md-nav__link">
+      <a href="../.." class="md-nav__link">
         
   
   
@@ -380,7 +373,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../about/" class="md-nav__link">
+      <a href="../../about/" class="md-nav__link">
         
   
   
@@ -443,7 +436,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../CET-4/about/" class="md-nav__link">
+      <a href="../../CET-4/about/" class="md-nav__link">
         
   
   
@@ -555,7 +548,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Essays/2025%E5%86%AC/%E6%BD%AE%E6%B9%BF/" class="md-nav__link">
+      <a href="../../Essays/2025%E5%86%AC/%E6%BD%AE%E6%B9%BF/" class="md-nav__link">
         
   
   
@@ -636,68 +629,29 @@
                 
   
   
+    
   
   
-    
-    
-    
-    
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
+        
       
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_1" >
-        
-          
-          <label class="md-nav__link" for="__nav_5_1" id="__nav_5_1_label" tabindex="0">
-            
-  
-  
-  <span class="md-ellipsis">
-    C01 Shell Tools and Scripting
-    
-  </span>
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_1_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_5_1">
-            <span class="md-nav__icon md-icon"></span>
-            C01 Shell Tools and Scripting
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../C01_Shell%20Tools%20and%20Scripting/%E3%80%8APowerShell%20%E6%96%B0%E6%89%8B%E9%AB%98%E9%A2%91%E5%AE%9E%E7%94%A8%E6%8C%87%E4%BB%A4%E6%95%B4%E7%90%86%E3%80%8B/" class="md-nav__link">
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
   <span class="md-ellipsis">
-    《PowerShell 新手高频实用指令整理》
+    Missing Semester(技能拾遗)
     
   </span>
   
 
       </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
       
     </li>
   
@@ -730,7 +684,7 @@
   
   
   <span class="md-ellipsis">
-    C02 Editors (Vim)
+    C01 Shell Tools and Scripting
     
   </span>
   
@@ -741,7 +695,7 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_5_2">
             <span class="md-nav__icon md-icon"></span>
-            C02 Editors (Vim)
+            C01 Shell Tools and Scripting
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -752,58 +706,12 @@
   
   
     <li class="md-nav__item">
-      <a href="../../C02_Editors%20%28Vim%29/Emacs/" class="md-nav__link">
+      <a href="../C01_Shell%20Tools%20and%20Scripting/%E3%80%8APowerShell%20%E6%96%B0%E6%89%8B%E9%AB%98%E9%A2%91%E5%AE%9E%E7%94%A8%E6%8C%87%E4%BB%A4%E6%95%B4%E7%90%86%E3%80%8B/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    Emacs
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../C02_Editors%20%28Vim%29/Vim/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    Vim
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../C02_Editors%20%28Vim%29/%E3%80%8APowerShell%20%E6%96%B0%E6%89%8B%E9%AB%98%E9%A2%91%E5%AE%9E%E7%94%A8%E6%8C%87%E4%BB%A4%E6%95%B4%E7%90%86%E3%80%8B/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    Vim
+    《PowerShell 新手高频实用指令整理》
     
   </span>
   
@@ -848,7 +756,7 @@
   
   
   <span class="md-ellipsis">
-    C03 Data Wrangling
+    C02 Editors (Vim)
     
   </span>
   
@@ -859,7 +767,7 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_5_3">
             <span class="md-nav__icon md-icon"></span>
-            C03 Data Wrangling
+            C02 Editors (Vim)
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -870,12 +778,35 @@
   
   
     <li class="md-nav__item">
-      <a href="../../C03_Data%20Wrangling/%E3%80%8APowerShell%20%E6%96%B0%E6%89%8B%E9%AB%98%E9%A2%91%E5%AE%9E%E7%94%A8%E6%8C%87%E4%BB%A4%E6%95%B4%E7%90%86%E3%80%8B/" class="md-nav__link">
+      <a href="../C02_Editors%20%28Vim%29/Emacs/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    《PowerShell 新手高频实用指令整理》
+    Emacs
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../C02_Editors%20%28Vim%29/Vim/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Vim
     
   </span>
   
@@ -942,35 +873,12 @@
   
   
     <li class="md-nav__item">
-      <a href="../../C04_Version%20Control%20%28Git%29/Git/" class="md-nav__link">
+      <a href="../C04_Version%20Control%20%28Git%29/Git/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     Git
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../C04_Version%20Control%20%28Git%29/%E3%80%8APowerShell%20%E6%96%B0%E6%89%8B%E9%AB%98%E9%A2%91%E5%AE%9E%E7%94%A8%E6%8C%87%E4%BB%A4%E6%95%B4%E7%90%86%E3%80%8B/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    《PowerShell 新手高频实用指令整理》
     
   </span>
   
@@ -1015,7 +923,7 @@
   
   
   <span class="md-ellipsis">
-    C05 Github
+    C06 Linux Environment Building
     
   </span>
   
@@ -1025,80 +933,6 @@
         
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_5_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_5_5">
-            <span class="md-nav__icon md-icon"></span>
-            C05 Github
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../C05_Github/%E3%80%8APowerShell%20%E6%96%B0%E6%89%8B%E9%AB%98%E9%A2%91%E5%AE%9E%E7%94%A8%E6%8C%87%E4%BB%A4%E6%95%B4%E7%90%86%E3%80%8B/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    《PowerShell 新手高频实用指令整理》
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-    
-  
-  
-  
-    
-    
-    
-    
-      
-      
-    
-    
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_6" checked>
-        
-          
-          <label class="md-nav__link" for="__nav_5_6" id="__nav_5_6_label" tabindex="0">
-            
-  
-  
-  <span class="md-ellipsis">
-    C06 Linux Environment Building
-    
-  </span>
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_6_label" aria-expanded="true">
-          <label class="md-nav__title" for="__nav_5_6">
             <span class="md-nav__icon md-icon"></span>
             C06 Linux Environment Building
           </label>
@@ -1111,7 +945,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Scoop%26npm/" class="md-nav__link">
+      <a href="../C06_Linux%20Environment%20Building/Scoop%26npm/" class="md-nav__link">
         
   
   
@@ -1134,7 +968,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Scoop/" class="md-nav__link">
+      <a href="../C06_Linux%20Environment%20Building/Scoop/" class="md-nav__link">
         
   
   
@@ -1154,41 +988,10 @@
                 
   
   
-    
-  
-  
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
-        
-  
-  
-  <span class="md-ellipsis">
-    《PowerShell 新手高频实用指令整理》
-    
-  </span>
-  
-
-      </a>
-      
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
   
   
     <li class="md-nav__item">
-      <a href="../%E7%AE%80%E5%8C%96%E6%B8%85%E5%8D%95%EF%BC%88%E4%B8%8D%E5%85%A8%EF%BC%89/" class="md-nav__link">
+      <a href="../C06_Linux%20Environment%20Building/%E7%AE%80%E5%8C%96%E6%B8%85%E5%8D%95%EF%BC%88%E4%B8%8D%E5%85%A8%EF%BC%89/" class="md-nav__link">
         
   
   
@@ -1236,6 +1039,8 @@
   
   
   
+    
+  
   
 </nav>
                   </div>
@@ -1254,9 +1059,10 @@
   
 
 
-  <h1>《PowerShell 新手高频实用指令整理》</h1>
-
-<p>樂 打HPC唯一的收获大概是在电脑上装了Debian和虚拟机</p>
+<h1 id="missing-semester">Missing Semester(技能拾遗)</h1>
+<p>主要是围绕着<a href="https://missing-semester-cn.github.io/">MIT Missing semester</a>和<a href="https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/Git/">CSDIY</a>实用工具篇还有<a href="https://slides.tonycrane.cc/PracticalSkillsTutorial/">xg的辅学系列</a>展开的。</p>
+<p>看情况吧，最初的计划是在大一冬学期<sub>~忙里偷闲</sub>~学起来。我的学分。。。应该还算合适？</p>
+<p>总之存在这里了。</p>
 
 
 
@@ -1279,7 +1085,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="November 9, 2025 07:42:37 UTC">November 9, 2025</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="November 10, 2025 06:31:04 UTC">November 10, 2025</span>
   </span>
 
     
@@ -1289,7 +1095,7 @@
     <span class="md-icon" title="Created">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14.47 15.08 11 13V7h1.5v5.25l3.08 1.83c-.41.28-.79.62-1.11 1m-1.39 4.84c-.36.05-.71.08-1.08.08-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8c0 .37-.03.72-.08 1.08.69.1 1.33.32 1.92.64.1-.56.16-1.13.16-1.72 0-5.5-4.5-10-10-10S2 6.5 2 12s4.47 10 10 10c.59 0 1.16-.06 1.72-.16-.32-.59-.54-1.23-.64-1.92M18 15v3h-3v2h3v3h2v-3h3v-2h-3v-3z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="November 9, 2025 07:42:37 UTC">November 9, 2025</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="November 10, 2025 06:31:04 UTC">November 10, 2025</span>
   </span>
 
     
@@ -1339,12 +1145,12 @@
     
     
       
-      <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.tabs", "navigation.instant.preview", "navigation.instant", "navigation.instant.progress"], "search": "../../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.instant.preview", "navigation.instant", "navigation.instant.progress"], "search": "../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="../../../assets/javascripts/bundle.f55a23d4.min.js"></script>
+      <script src="../../assets/javascripts/bundle.f55a23d4.min.js"></script>
       
-        <script src="../../../javascripts/mathjax.js"></script>
+        <script src="../../javascripts/mathjax.js"></script>
       
         <script src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
       
