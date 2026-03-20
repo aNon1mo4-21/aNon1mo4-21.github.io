@@ -13,7 +13,8 @@ theme:
     - search.highlight
     - navigation.expand  # 默认展开左侧菜单
     - content.code.copy   # 代码块右上角显示复制按钮
-
+    - navigation.indexes
+    - content.tabs.link
 nav:
   - Home: index.md
   - 📐 Mathematics:
