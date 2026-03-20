@@ -3,7 +3,7 @@ site_url: https://aNon1mo4-21.github.io
 
 theme:
   name: material
-  language: zh  # 设置中文界面
+  language: en  # 设置中文界面
   palette: 
     primary: indigo # 主题色
     accent: indigo
