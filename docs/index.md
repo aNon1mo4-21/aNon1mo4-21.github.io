@@ -1,18 +1,43 @@
-# Welcome to MkDocs
+# Welcome to My Digital Garden
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
-hello there!
+Greetings! I am a student at **Zhejiang University**, majoring in **Computer Science and Technology (Turing Class)**. 
 
-## Commands
+This site serves as a centralized repository for my undergraduate journey—capturing my progress in mathematics, my evolution in programming languages, and my explorations in research.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+---
 
-## Project layout
+## 🧭 Navigation Guide
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+::: cards
+-   **Mathematics**
+    ---
+    Rigorous foundations in Analysis, Linear Algebra, and Probability.
+    [:octicons-arrow-right-24: Explore Formulas](./math/analysis.md)
+
+-   **Programming**
+    ---
+    From high-level logic in C++/Python to hardware-level Verilog.
+    [:octicons-arrow-right-24: View Projects](./coding/cpp.md)
+
+-   **Research**
+    ---
+    Investigating the frontiers of Computer Vision and Embodied AI.
+    [:octicons-arrow-right-24: Read Papers](./research/exploration.md)
+
+-   **Toolkit**
+    ---
+    My curated set of software, workflows, and site maintenance guides.
+    [:octicons-arrow-right-24: Check Tools](./toolkit/software.md)
+:::
+
+---
+
+## 🚀 Status
+- **Current Focus:** Learning Verilog and FPGA architecture.
+- **Latest Update:** Mathematical Analysis I (Convergence of Sequences).
+- **Contact:** [GitHub](https://github.com/你的用户名) | [Email](mailto:你的邮箱)
+
+---
+<p align="center">
+  <small>Built with MkDocs & Material Theme | © 2026 Chen Yanjia</small>
+</p>
