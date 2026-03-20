@@ -1,1 +1,20 @@
-site_name: My Docs
+site_name: 我的个人网站
+site_url: https://aNon1mo4-21.github.io
+
+theme:
+  name: material
+  language: zh  # 设置中文界面
+  palette: 
+    primary: indigo # 主题色
+    accent: indigo
+  features:
+    - navigation.tabs # 顶部导航栏
+    - search.suggest
+    - search.highlight
+
+# nav:
+#   - 首页: index.md
+#   - 笔记: 
+#     - 编程: coding.md
+#     - 生活: life.md
+#   - 关于: about.md
