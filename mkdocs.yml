@@ -15,4 +15,21 @@ theme:
     - content.code.copy   # 代码块右上角显示复制按钮
 
 nav:
-  - Welcome: index.md
+  - Home: index.md
+  - 📐 Mathematics:
+      - Overview: math/index.md
+      # - Mathematical Analysis: math/analysis.md
+      # - Linear Algebra: math/linear-algebra.md
+      # - Probability & Statistics: math/probability.md
+      # - Differential Equations: math/ode.md
+  # - 💻 Programming:
+  #     - Overview: coding/index.md
+  #     - C/C++ Development: coding/cpp.md
+  #     - Python Scripting: coding/python.md
+  #     - Hardware Design (Verilog): coding/verilog.md
+  # - 🔬 Research:
+  #     - Exploration: research/exploration.md  # 留待后续细分讨论
+  # - 🛠️ Toolkit:
+  #     - Software & Tools: toolkit/software.md
+  #     - Site Maintenance: toolkit/mkdocs-guide.md # 维护当前网站的操作
+  # - About: about.md
