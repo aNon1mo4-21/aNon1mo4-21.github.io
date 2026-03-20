@@ -1,4 +1,4 @@
-site_name: 我的个人网站
+site_name: Abby's Notes
 site_url: https://aNon1mo4-21.github.io
 
 theme:
@@ -8,13 +8,10 @@ theme:
     primary: indigo # 主题色
     accent: indigo
   features:
-    - navigation.tabs # 顶部导航栏
+    - navigation.expand  # 默认展开左侧菜单
     - search.suggest
     - search.highlight
+    - content.code.copy   # 代码块右上角显示复制按钮
 
-# nav:
-#   - 首页: index.md
-#   - 笔记: 
-#     - 编程: coding.md
-#     - 生活: life.md
-#   - 关于: about.md
+nav:
+  - Welcome: index.md
