@@ -15,6 +15,17 @@ theme:
     - content.code.copy   # 代码块右上角显示复制按钮
     - navigation.indexes
     - content.tabs.link
+markdown_extensions:
+  - admonition
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - arithmatex:
+      generic: true
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
 nav:
   - Home: index.md
   - 📐 Mathematics:
