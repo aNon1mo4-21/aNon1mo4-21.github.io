@@ -30,6 +30,15 @@
 * [Desmos Graphing Calculator](https://www.desmos.com/calculator) - Best for visualizing functions.
 * [Overleaf (LaTeX)](https://www.overleaf.com/) - For professional academic writing.
 
+$$
+f(x) = \sum_{n=0}^{\infty} \frac{f^{(n)}(a)}{n!} (x-a)^n
+$$
+
+
+$$
+\hat{f}(\xi) = \int_{-\infty}^{\infty} f(x) e^{-2\pi i x \xi} dx
+$$
+
 ---
 <p align="center">
   <small>“Mathematics is the language in which God has written the universe.”</small>
