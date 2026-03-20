@@ -1,43 +1,21 @@
-# Welcome to My Digital Garden
+# My Digital Garden
 
-Greetings! I am a student at **Zhejiang University**, majoring in **Computer Science and Technology (Turing Class)**. 
+Welcome! I am **Abby**, an undergraduate student in the **Turing Class (Computer Science and Technology)** at **Zhejiang University**.
 
-This site serves as a centralized repository for my undergraduate journey—capturing my progress in mathematics, my evolution in programming languages, and my explorations in research.
+This website is a live record of my intellectual growth and technical journey. It serves as a centralized repository where I document my ongoing explorations into the frontiers of research.
 
----
+### 📚 What I am doing here
+* **Mathematical Foundations**: Building a solid base in Analysis, Algebra, and Probability.
+* **Programming & Systems**: Mastering languages (C/C++, Python) and hardware architecture (Verilog).
+* **Research Exploration**: Investigating Computer Vision and Embodied AI and so on.
+* **Toolkit & Workflows**: Curating efficient software practices and site maintenance guides.
 
-## 🧭 Navigation Guide
-
-::: cards
--   **Mathematics**
-    ---
-    Rigorous foundations in Analysis, Linear Algebra, and Probability.
-    [:octicons-arrow-right-24: Explore Formulas](./math/analysis.md)
-
--   **Programming**
-    ---
-    From high-level logic in C++/Python to hardware-level Verilog.
-    [:octicons-arrow-right-24: View Projects](./coding/cpp.md)
-
--   **Research**
-    ---
-    Investigating the frontiers of Computer Vision and Embodied AI.
-    [:octicons-arrow-right-24: Read Papers](./research/exploration.md)
-
--   **Toolkit**
-    ---
-    My curated set of software, workflows, and site maintenance guides.
-    [:octicons-arrow-right-24: Check Tools](./toolkit/software.md)
-:::
+### 🚀 Continuous Learning
+I believe in "Learning in Public." This site is under constant construction as I acquire new skills and refine my understanding. Every update here represents a step forward in my academic and professional path.
 
 ---
+*Stay curious. Keep building.*
 
-## 🚀 Status
-- **Current Focus:** Learning Verilog and FPGA architecture.
-- **Latest Update:** Mathematical Analysis I (Convergence of Sequences).
-- **Contact:** [GitHub](https://github.com/你的用户名) | [Email](mailto:你的邮箱)
-
----
-<p align="center">
-  <small>Built with MkDocs & Material Theme | © 2026 Chen Yanjia</small>
+<p align="right">
+  <small>Last updated: 2026 | Built with MkDocs</small>
 </p>
