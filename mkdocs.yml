@@ -8,9 +8,10 @@ theme:
     primary: indigo # 主题色
     accent: indigo
   features:
-    - navigation.expand  # 默认展开左侧菜单
+    - navigation.tabs # 顶部导航栏
     - search.suggest
     - search.highlight
+    - navigation.expand  # 默认展开左侧菜单
     - content.code.copy   # 代码块右上角显示复制按钮
 
 nav:
