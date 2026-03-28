@@ -1,11 +1,12 @@
-site_name: Abby's Notes ?
+site_name: Abby's Notes
 site_url: https://aNon1mo4-21.github.io
 
 theme:
   name: material
   language: en  # 设置中文界面
+  favicon: assets/favicon.png
   icon:
-    logo: material/brain
+    logo: material/duck
   palette: 
     primary: white # 主题色
     accent: indigo
