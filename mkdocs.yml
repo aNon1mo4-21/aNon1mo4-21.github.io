@@ -5,7 +5,7 @@ theme:
   name: material
   language: en  # 设置中文界面
   icon:
-    logo: material/robot
+    logo: material/brain
   palette: 
     primary: white # 主题色
     accent: indigo
