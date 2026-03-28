@@ -5,7 +5,7 @@ theme:
   name: material
   language: en  # 设置中文界面
   palette: 
-    primary: indigo # 主题色
+    primary: white # 主题色
     accent: indigo
   features:
     - navigation.tabs # 顶部导航栏
@@ -38,8 +38,6 @@ nav:
       - Overview: math/index.md
       - Mathematical Analysis: math/analysis.md
       - Linear Algebra: math/linear-algebra.md
-      - Probability & Statistics: math/probability.md
-      - Differential Equations: math/ode.md
   - 💻 Programming:
       - Overview: coding/index.md
       - C/C++ Development: coding/cpp.md
