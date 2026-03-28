@@ -8,22 +8,28 @@
       
       
       
+        <link rel="canonical" href="https://aNon1mo4-21.github.io/math/linear-algebra/">
       
       
+        <link rel="prev" href="../analysis/">
       
-      <link rel="icon" href="/assets/images/favicon.png">
+      
+        <link rel="next" href="../../coding/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.23">
     
     
       
-        <title>Abby's Notes</title>
+        <title>Linear Algebra - Abby's Notes</title>
       
     
     
-      <link rel="stylesheet" href="/assets/stylesheets/main.84d31ad4.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.84d31ad4.min.css">
       
         
-        <link rel="stylesheet" href="/assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -42,7 +48,7 @@
       
     
     
-    <script>__md_scope=new URL("/",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -65,6 +71,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#linear-algebra-the-geometry-of-data" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -75,7 +86,7 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="/." title="Abby&#39;s Notes" class="md-header__button md-logo" aria-label="Abby's Notes" data-md-component="logo">
+    <a href="../.." title="Abby&#39;s Notes" class="md-header__button md-logo" aria-label="Abby's Notes" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -95,7 +106,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              
+              Linear Algebra
             
           </span>
         </div>
@@ -170,7 +181,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="/." class="md-tabs__link">
+      <a href="../.." class="md-tabs__link">
         
   
   
@@ -187,11 +198,13 @@
   
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="/math/" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../" class="md-tabs__link">
           
   
   
@@ -213,7 +226,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/coding/" class="md-tabs__link">
+        <a href="../../coding/" class="md-tabs__link">
           
   
   
@@ -235,7 +248,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/research/exploration/" class="md-tabs__link">
+        <a href="../../research/exploration/" class="md-tabs__link">
           
   
   
@@ -257,7 +270,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/toolkit/software/" class="md-tabs__link">
+        <a href="../../toolkit/software/" class="md-tabs__link">
           
   
   
@@ -277,7 +290,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="/about.md" class="md-tabs__link">
+      <a href="../../about.md" class="md-tabs__link">
         
   
   
@@ -312,7 +325,7 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="/." title="Abby&#39;s Notes" class="md-nav__button md-logo" aria-label="Abby's Notes" data-md-component="logo">
+    <a href="../.." title="Abby&#39;s Notes" class="md-nav__button md-logo" aria-label="Abby's Notes" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -330,7 +343,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/." class="md-nav__link">
+      <a href="../.." class="md-nav__link">
         
   
   
@@ -349,6 +362,8 @@
       
   
   
+    
+  
   
   
     
@@ -370,20 +385,21 @@
     
     
       
+        
+        
+      
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-          
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="/math/" class="md-nav__link ">
+            <a href="../" class="md-nav__link ">
               
   
   
@@ -396,13 +412,13 @@
             </a>
             
               
-              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="0">
+              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="">
                 <span class="md-nav__icon md-icon"></span>
               </label>
             
           </div>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             📐 Mathematics
@@ -418,7 +434,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/math/analysis/" class="md-nav__link">
+      <a href="../analysis/" class="md-nav__link">
         
   
   
@@ -438,10 +454,32 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="/math/linear-algebra/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Linear Algebra
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -452,6 +490,62 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#current-focus-ladr-pathway" class="md-nav__link">
+    <span class="md-ellipsis">
+      🎯 Current Focus (LADR Pathway)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3d-vision-applications" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔍 3D Vision Applications
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#key-insights" class="md-nav__link">
+    <span class="md-ellipsis">
+      📝 Key Insights
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#working-sandbox" class="md-nav__link">
+    <span class="md-ellipsis">
+      🛠️ Working Sandbox
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -464,7 +558,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/math/probability.md" class="md-nav__link">
+      <a href="../probability.md" class="md-nav__link">
         
   
   
@@ -487,7 +581,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/math/ode.md" class="md-nav__link">
+      <a href="../ode.md" class="md-nav__link">
         
   
   
@@ -546,7 +640,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="/coding/" class="md-nav__link ">
+            <a href="../../coding/" class="md-nav__link ">
               
   
   
@@ -581,7 +675,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/coding/cpp/" class="md-nav__link">
+      <a href="../../coding/cpp/" class="md-nav__link">
         
   
   
@@ -604,7 +698,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/coding/python/" class="md-nav__link">
+      <a href="../../coding/python/" class="md-nav__link">
         
   
   
@@ -627,7 +721,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/coding/verilog/" class="md-nav__link">
+      <a href="../../coding/verilog/" class="md-nav__link">
         
   
   
@@ -704,7 +798,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/research/exploration/" class="md-nav__link">
+      <a href="../../research/exploration/" class="md-nav__link">
         
   
   
@@ -783,7 +877,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/toolkit/software/" class="md-nav__link">
+      <a href="../../toolkit/software/" class="md-nav__link">
         
   
   
@@ -806,7 +900,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/toolkit/mkdocs-guide/" class="md-nav__link">
+      <a href="../../toolkit/mkdocs-guide/" class="md-nav__link">
         
   
   
@@ -836,7 +930,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/about.md" class="md-nav__link">
+      <a href="../../about.md" class="md-nav__link">
         
   
   
@@ -868,6 +962,52 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#current-focus-ladr-pathway" class="md-nav__link">
+    <span class="md-ellipsis">
+      🎯 Current Focus (LADR Pathway)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3d-vision-applications" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔍 3D Vision Applications
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#key-insights" class="md-nav__link">
+    <span class="md-ellipsis">
+      📝 Key Insights
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#working-sandbox" class="md-nav__link">
+    <span class="md-ellipsis">
+      🛠️ Working Sandbox
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -879,8 +1019,52 @@
             <div class="md-content" data-md-component="content">
               <article class="md-content__inner md-typeset">
                 
-  <h1>404 - Not found</h1>
+                  
 
+
+
+<h1 id="linear-algebra-the-geometry-of-data">Linear Algebra: The Geometry of Data</h1>
+<blockquote>
+<p>"The purely formal handle on algebra is a bit like a dry bone; the geometric intuition is the meat." — Adapted from 3Blue1Brown</p>
+</blockquote>
+<p>Linear Algebra is the engine behind <strong>Computer Vision</strong> and <strong>Spatial Intelligence</strong>. Following the "Axler Way" (LADR), I focus on linear maps and operators rather than just pushing numbers around in matrices.</p>
+<h2 id="current-focus-ladr-pathway">🎯 Current Focus (LADR Pathway)</h2>
+<ul>
+<li><strong>Vector Spaces &amp; Subspaces</strong>: Understanding the "canvas" where linear transformations live.</li>
+<li><strong>Linear Maps</strong>: Treating matrices as representations of functions between vector spaces.</li>
+<li><strong>Eigenvalues &amp; Eigenvectors</strong>: Finding the invariant directions of a transformation.</li>
+<li><strong>Inner Product Spaces</strong>: The foundation of geometry—orthogonality, projections, and the Adjoint operator.</li>
+</ul>
+<h2 id="3d-vision-applications">🔍 3D Vision Applications</h2>
+<ul>
+<li><strong>Change of Basis</strong>: Crucial for transforming coordinates between Camera Space, World Space, and Screen Space.</li>
+<li><strong>Singular Value Decomposition (SVD)</strong>: The "Swiss Army Knife" for solving Overdetermined Systems and Essential Matrix estimation.</li>
+<li><strong>Projective Geometry</strong>: Understanding how 3D points map to 2D planes via Homographies.</li>
+</ul>
+<h2 id="key-insights">📝 Key Insights</h2>
+<ul>
+<li><strong>Determinants are Volume</strong>: A determinant isn't just a formula; it's the scaling factor of a transformation's volume.</li>
+<li><strong>Spectral Theorem</strong>: Why symmetric matrices (like Covariance matrices) are so well-behaved and useful for PCA.</li>
+</ul>
+<h2 id="working-sandbox">🛠️ Working Sandbox</h2>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Implement basic Matrix Decomposition in pure C (for the "Low-level" soul).</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Visualize Span and Linear Independence using Manim/Python.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Master the <em>Gram-Schmidt Process</em> for orthonormalization.</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
               </article>
             </div>
           
@@ -918,12 +1102,12 @@
     
     
       
-      <script id="__config" type="application/json">{"base": "/", "features": ["navigation.tabs", "search.suggest", "search.highlight", "navigation.expand", "content.code.copy", "navigation.indexes", "content.tabs.link"], "search": "/assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "search.suggest", "search.highlight", "navigation.expand", "content.code.copy", "navigation.indexes", "content.tabs.link"], "search": "../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="/assets/javascripts/bundle.f55a23d4.min.js"></script>
+      <script src="../../assets/javascripts/bundle.f55a23d4.min.js"></script>
       
-        <script src="/javascripts/mathjax.js"></script>
+        <script src="../../javascripts/mathjax.js"></script>
       
         <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
       
