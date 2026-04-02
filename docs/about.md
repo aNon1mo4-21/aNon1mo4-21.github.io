@@ -34,6 +34,11 @@ GitHub:[aNon1mo4-21](https://github.com/aNon1mo4-21)
 
 ---
 
+
+!!! info "友情链接"
+    [:octicons-link-24: **Abby's Notes**](https://anon1mo4-21.github.io/)
+    > Abby 的 Wonderland，记录技术成长与思考。
+
 <p align="center">
   <small>“Stay curious, keep building, and don't forget to have fun!”</small>
 </p>
