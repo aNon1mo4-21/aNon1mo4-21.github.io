@@ -35,9 +35,19 @@ GitHub:[aNon1mo4-21](https://github.com/aNon1mo4-21)
 ---
 
 
-!!! info "友情链接"
-    [:octicons-link-24: **Abby's Notes**](https://anon1mo4-21.github.io/)
-    > Abby 的 Wonderland，记录技术成长与思考。
+<div class="flink-list">
+
+<div class="flink-list-item">
+    <a href="https://hubery258.github.io/dreamland-hubery/" title="Hubery's notebook" target="_blank">
+        <div class="flink-item-icon">
+            <img src="https://s41.ax1x.com/2026/03/14/peEfnTx.jpg" alt="HJH">
+        </div>
+        <div class="flink-item-name heti-skip">Hubery's notebook</div>
+        <div class="flink-item-desc">人生忽如寄，寿无金石固。</div>
+    </a>
+</div>
+
+</div>
 
 <p align="center">
   <small>“Stay curious, keep building, and don't forget to have fun!”</small>
