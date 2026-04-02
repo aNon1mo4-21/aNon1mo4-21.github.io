@@ -1,0 +1,61 @@
+/* 友链列表容器 */
+.flink-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px; /* 卡片之间的间距 */
+    margin: 20px 0;
+}
+
+/* 单个卡片样式 */
+.flink-list-item {
+    width: 250px; /* 卡片宽度，可根据需要调整 */
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    padding: 15px;
+    background: #fff;
+    transition: all 0.3s ease; /* 过渡动画 */
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+/* 鼠标悬停效果 */
+.flink-list-item:hover {
+    transform: translateY(-5px); /* 向上浮动 */
+    box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+    border-color: #4a90e2;
+}
+
+/* 去掉链接下划线 */
+.flink-list-item a {
+    text-decoration: none !important;
+    color: inherit;
+    display: block;
+}
+
+/* 头像样式 */
+.flink-item-icon img {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%; /* 圆形头像 */
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+/* 名称样式 */
+.flink-item-name {
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+/* 描述样式 */
+.flink-item-desc {
+    font-size: 0.85em;
+    color: #666;
+    line-height: 1.4;
+    /* 限制描述为一行，超出显示省略号 */
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
